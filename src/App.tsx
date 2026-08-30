@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Gallery from './Gallery'
 
 const HERO_IMG = 'https://images.unsplash.com/photo-1637997840862-9aafaf835eed?w=1800&h=900&fit=crop&auto=format'
 const WORKSHOP_IMG = 'https://images.unsplash.com/photo-1612353318597-702ae55258cb?w=900&h=600&fit=crop&auto=format'
@@ -501,6 +502,7 @@ export default function App() {
         <ImpactStats />
         <Journey />
         <Stories />
+        <Gallery />
         <Challenges />
         <Recommendations />
         <Support />
