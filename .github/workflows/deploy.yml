@@ -28,7 +28,7 @@ jobs:
           node-version: 22
           cache: npm
 
-      - name: Install dependencies
+      - name: Install dependencies --legacy-peer-deps
         run: npm ci
 
       - name: Build site
